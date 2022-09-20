@@ -30,10 +30,16 @@ img {
   width: 100%;
   display: block;
   margin: 0 auto;
+  max-width: 250px;
 }
 
 p {
   line-height: 1.2em;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
 /** Caption styles */
 .caption,
@@ -99,6 +105,24 @@ figcaption {
   left: 0;
   border: 0;
 }
+
+.lights-off {
+  display: none;
+}
+
+.off {
+  background-color: #000;
+  color: #fff;
+}
+
+.off .lights-off {
+  display: block;
+}
+
+.off .lights-on {
+  display: none;
+}
+
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
